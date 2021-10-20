@@ -1,0 +1,79 @@
+body {
+	background-color: pink;
+	text-align: center;
+	
+}
+h1 { 
+	color:red;
+	font-family:Helvetica;
+	text-shadow: 2px 2px; 
+}
+
+h3 { 
+	color:yellow;
+	font-family:Helvetica;
+	text-shadow: 2px 2px; 
+}
+
+h2 {
+	color:orange;
+	font-family:Helvetica;
+	text-shadow: 2px 2px; 
+}
+
+ul { 
+	list-style: none;
+}
+
+li::before {
+	content: "•";
+	color:red;
+	width: 1em;
+	display: inline-block;
+}
+
+.boldfont {
+	font-weight: bold;
+}
+
+.underlinedfont {
+	text-decoration: underline;
+}
+
+.container-1 {
+  display:flex;
+  justify-content:center;
+}
+
+ .container-1 div {
+  border: 1px solid black;
+  padding: 10px;
+  
+  }
+
+.box-1 {
+  flex-basis: 20%;
+  
+}
+
+.box-2 {
+ flex-basis: 20%;
+
+}
+
+.box-3 {
+  flex-basis: 20%;
+}
+
+
+@media screen and (max-width: 992px) {
+  body {
+    background-color: blue;
+  }
+}
+
+
+
+
+
+	
